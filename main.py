@@ -13,8 +13,8 @@ for number in mission_success:
         counter = counter + 1
 print ("Number of successful missions", counter)
 
-sucessRate = counter/totalMission * 100
-print (f"Sucess rate: {sucessRate:.2f}%")
+successRate = counter/totalMission * 100
+print (f"Success rate: {successRate:.2f}%")
 
 for number in mission_years:
     if number < 2012:
